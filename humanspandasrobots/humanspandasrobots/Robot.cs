@@ -8,6 +8,11 @@ namespace humanspandasrobots
 {
     class Robot
     {
+        //this method will display the robot greeting
+        public void DisplayGreeting()
+        {
+            Console.WriteLine("Beep Boop Beep");
+        }
         //this method will display the robots name
         public void DisplayName()
         {

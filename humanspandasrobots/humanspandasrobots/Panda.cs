@@ -8,6 +8,11 @@ namespace humanspandasrobots
 {
     class Panda
     {
+        //this method will display the Panda greeting
+        public void DisplayGreeting()
+        {
+            Console.WriteLine("Rawr, I'm a panda...I think...wait, why am I talking?");
+        }
         //this method will display the pandas name
         public void DisplayName()
         {
