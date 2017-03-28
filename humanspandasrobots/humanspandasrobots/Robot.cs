@@ -12,13 +12,16 @@ namespace humanspandasrobots
         public string RobotName { get; set; }
         public Robot (string name)
         {
+            _IsTerminator = false;
             this.RobotName = name;
+            if name = "Terminator" 
+            {
+                _IsTerminator = true;
+            }
         }
         //this method will say if the robot is the terminator or not
-        public void IsTerminator()
-        {
-            
-        }
+        public bool IsTerminator { get { return _IsTerminator; } }
+        private bool _IsTerminator;
         //this method will turn the robot on
         public void StartUp()
         {
