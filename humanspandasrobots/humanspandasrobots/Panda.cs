@@ -8,6 +8,12 @@ namespace humanspandasrobots
 {
     class Panda
     {
+        //this will require a name for any new panda
+        public string PandaName { get; set; }
+        public Panda (string name)
+        {
+            this.PandaName = name;
+        }
         //this method will wake the panda up.
         public void WakeUp()
         {

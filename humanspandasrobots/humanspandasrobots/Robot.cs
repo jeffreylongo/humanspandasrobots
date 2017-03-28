@@ -8,6 +8,12 @@ namespace humanspandasrobots
 {
     class Robot
     {
+        //this will require any new robot has a name
+        public string RobotName { get; set; }
+        public Robot (string name)
+        {
+            this.RobotName = name;
+        }
         //this method will say if the robot is the terminator or not
         public void IsTerminator()
         {
