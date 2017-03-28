@@ -35,5 +35,8 @@ namespace humanspandasrobots
         }
         //this is the humans name property
         public string Name { get; set; }
+        //this will see if the human is asleep
+        public bool IsAsleep { get; set; }
+
     }
 }
