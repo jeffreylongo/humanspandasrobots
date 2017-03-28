@@ -19,6 +19,10 @@ namespace humanspandasrobots
         {
             Console.WriteLine(Name);
         }
+        //this will contain the hair color of the human or panda
+        public string HairColor { get; set; }
+        //this will contain the age of the human or panda
+        public string Age { get; set; }
 
     }
 }
