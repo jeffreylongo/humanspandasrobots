@@ -11,8 +11,13 @@ namespace humanspandasrobots
         static void Main(string[] args)
         {
             List<Human> humans = new List<Human>();
-
             var jim = new Human("Jim");
+            humans.Add(jim);
+
+            List<Panda> pandas = new List<Panda>();
+            var pinky = new Panda("Pinky");
+            pandas.Add(pinky);
+
             
         }
     }

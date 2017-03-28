@@ -30,8 +30,6 @@ namespace humanspandasrobots
             var food = "Chicken Wings";
             Console.WriteLine($"Yum, I just ate {food}");
         }
-        //this is the humans name property
-        public string Name { get; set; }
         //this will see if the human is asleep
         public bool IsAsleep { get { return _IsAsleep; } }
         private bool _IsAsleep;

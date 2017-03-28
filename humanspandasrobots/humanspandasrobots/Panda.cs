@@ -30,8 +30,6 @@ namespace humanspandasrobots
             var food = "leaves or whatever";
             Console.WriteLine($"Rawr rawr {food}");
         }
-        //this is the panda name property
-        public string Name { get; set; }
         //this will see if the panda is asleep
         public bool IsAsleep { get { return _IsAsleep; } }
         private bool _IsAsleep;
