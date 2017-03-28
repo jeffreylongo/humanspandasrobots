@@ -23,28 +23,28 @@ namespace humanspandasrobots
         public void StartUp()
         {
             _IsAsleep = false;
-            Console.WriteLine("Beep Boop Robot Started");
+            Console.WriteLine("Robot boot sequence");
         }
         //this method will turn the robot off
         public void ShutDown()
         {
             _IsAsleep = true;
-            Console.WriteLine("Beep Boop Robot Shutdown");
+            Console.WriteLine("Robot shutting down");
         }
         //this method will display the robot greeting
         public void DisplayGreeting()
         {
-            Console.WriteLine("Beep Boop Beep");
+            Console.WriteLine($"Beep Boop Beep {RobotName}");
         }
         //this method will display the robots name
         public void DisplayName()
         {
-            Console.WriteLine(Name);
+            Console.WriteLine(RobotName);
         }
         //this is the robots name property
-        public string Name { get; set; }
+        public string name { get; set; }
         //this will see if the robot is asleep
-        public bool IsAsleep { get; }
+        public bool IsAsleep { get { return _IsAsleep; } }
         private bool _IsAsleep;
     }
 }

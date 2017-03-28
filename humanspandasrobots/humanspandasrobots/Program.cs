@@ -25,6 +25,11 @@ namespace humanspandasrobots
             List<Robot> robots = new List<Robot>();
             var bender = new Robot("Bender");
             robots.Add(bender);
+
+            bender.DisplayGreeting();
+
+
+            Console.ReadLine();
         }
     }
 }
