@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace humanspandasrobots
 {
-    class Panda
+    class Panda :Mammal
     {
         //this will require a name for any new panda
         public string PandaName { get; set; }
