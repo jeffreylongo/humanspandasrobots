@@ -8,6 +8,16 @@ namespace humanspandasrobots
 {
     class Robot
     {
+        //this method will turn the robot on
+        public void StartUp()
+        {
+
+        }
+        //this method will turn the robot off
+        public void ShutDown()
+        {
+
+        }
         //this method will display the robot greeting
         public void DisplayGreeting()
         {
