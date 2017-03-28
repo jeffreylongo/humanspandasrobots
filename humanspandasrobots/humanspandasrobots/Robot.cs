@@ -33,6 +33,7 @@ namespace humanspandasrobots
         {
             Console.WriteLine(Name);
         }
+        //this is the robots name property
         public string Name { get; set; }
     }
 }

@@ -33,6 +33,7 @@ namespace humanspandasrobots
             var food = "leaves or whatever";
             Console.WriteLine($"Rawr rawr {food}");
         }
+        //this is the panda name property
         public string Name { get; set; }
     }
 }

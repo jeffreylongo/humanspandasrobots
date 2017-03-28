@@ -33,6 +33,7 @@ namespace humanspandasrobots
             var food = "Chicken Wings";
             Console.WriteLine($"Yum, I just ate {food}");
         }
+        //this is the humans name property
         public string Name { get; set; }
     }
 }
