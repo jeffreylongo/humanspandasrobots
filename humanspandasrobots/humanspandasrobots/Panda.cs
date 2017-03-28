@@ -20,6 +20,7 @@ namespace humanspandasrobots
         }
         public void Eat()
         {
+            var food = "leaves or whatever";
             Console.WriteLine($"Rawr rawr {food}");
         }
         public string Name { get; set; }
