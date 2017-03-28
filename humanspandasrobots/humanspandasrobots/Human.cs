@@ -11,11 +11,13 @@ namespace humanspandasrobots
         //this method will wake the human up.
         public void WakeUp()
         {
+            _IsAsleep = false;
             Console.WriteLine($"{ Name} is now awake." );
         }
         //this method will put the human to sleep
         public void GoToSleep()
         {
+            _IsAsleep = true;
             Console.WriteLine($"{Name} is now sleeping.");
         }
         //this method will display the human greeting
@@ -36,7 +38,8 @@ namespace humanspandasrobots
         //this is the humans name property
         public string Name { get; set; }
         //this will see if the human is asleep
-        public bool IsAsleep { get; set; }
+        public bool IsAsleep { get { return _IsAsleep; } }
+        private bool _IsAsleep;
 
     }
 }
