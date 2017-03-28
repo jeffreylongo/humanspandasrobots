@@ -18,7 +18,9 @@ namespace humanspandasrobots
             var pinky = new Panda("Pinky");
             pandas.Add(pinky);
 
-            
+            List<Robot> robots = new List<Robot>();
+            var bender = new Robot("Bender");
+            robots.Add(bender);
         }
     }
 }
