@@ -8,6 +8,12 @@ namespace humanspandasrobots
 {
     class Human
     {
+        //this method will require a name for any new human.
+        public string HumanName { get; set; }
+        public Human(string name)
+        {
+            this.HumanName = name;
+        }
         //this method will wake the human up.
         public void WakeUp()
         {

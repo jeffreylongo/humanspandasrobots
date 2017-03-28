@@ -10,6 +10,9 @@ namespace humanspandasrobots
     {
         static void Main(string[] args)
         {
+            List<Human> humans = new List<Human>();
+
+            var jim = new Human("Jim");
         }
     }
 }
