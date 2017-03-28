@@ -18,6 +18,10 @@ namespace humanspandasrobots
         {
             Console.WriteLine(Name);
         }
+        public void Eat()
+        {
+            Console.WriteLine($"Rawr rawr {food}");
+        }
         public string Name { get; set; }
     }
 }
