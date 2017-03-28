@@ -8,6 +8,11 @@ namespace humanspandasrobots
 {
     class Robot
     {
+        //this method will say if the robot is the terminator or not
+        public void IsTerminator()
+        {
+            
+        }
         //this method will turn the robot on
         public void StartUp()
         {
