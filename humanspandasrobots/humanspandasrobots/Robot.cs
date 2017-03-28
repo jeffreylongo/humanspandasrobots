@@ -11,12 +11,12 @@ namespace humanspandasrobots
         //this method will turn the robot on
         public void StartUp()
         {
-
+            Console.WriteLine("Beep Boop Robot Started");
         }
         //this method will turn the robot off
         public void ShutDown()
         {
-
+            Console.WriteLine("Beep Boop Robot Shutdown");
         }
         //this method will display the robot greeting
         public void DisplayGreeting()
