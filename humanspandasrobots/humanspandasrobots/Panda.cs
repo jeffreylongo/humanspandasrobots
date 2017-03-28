@@ -8,10 +8,20 @@ namespace humanspandasrobots
 {
     class Panda
     {
+        //this method will wake the panda up.
+        public void WakeUp()
+        {
+            Console.WriteLine($"{ Name} is now awake.");
+        }
+        //this method will put the panda to sleep
+        public void GoToSleep()
+        {
+            Console.WriteLine($"{Name} is now sleeping.");
+        }
         //this method will display the Panda greeting
         public void DisplayGreeting()
         {
-            Console.WriteLine("Rawr, I'm a panda...I think...wait, why am I talking?");
+            Console.WriteLine($"Rawr, I'm a panda named {Name}...I think...wait, why am I talking?");
         }
         //this method will display the pandas name
         public void DisplayName()

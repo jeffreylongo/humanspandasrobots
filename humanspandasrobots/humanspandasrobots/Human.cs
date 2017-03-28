@@ -8,6 +8,16 @@ namespace humanspandasrobots
 {
     class Human
     {
+        //this method will wake the human up.
+        public void WakeUp()
+        {
+            Console.WriteLine($"{ Name} is now awake." );
+        }
+        //this method will put the human to sleep
+        public void GoToSleep()
+        {
+            Console.WriteLine($"{Name} is now sleeping.");
+        }
         //this method will display the human greeting
         public void DisplayGreeting()
         {
