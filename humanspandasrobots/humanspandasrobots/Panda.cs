@@ -8,12 +8,6 @@ namespace humanspandasrobots
 {
     class Panda :Mammal
     {
-        //this will require a name for any new panda
-        public string PandaName { get; set; }
-        public Panda (string name)
-        {
-            this.PandaName = name;
-        }
         //this method will wake the panda up.
         public void WakeUp()
         {
@@ -31,11 +25,6 @@ namespace humanspandasrobots
         {
             Console.WriteLine($"Rawr, I'm a panda named {Name}...I think...wait, why am I talking?");
         }
-        //this method will display the pandas name
-        public void DisplayName()
-        {
-            Console.WriteLine(Name);
-        }
         public void Eat()
         {
             var food = "leaves or whatever";
@@ -46,5 +35,9 @@ namespace humanspandasrobots
         //this will see if the panda is asleep
         public bool IsAsleep { get { return _IsAsleep; } }
         private bool _IsAsleep;
+
+        public Panda(string name) : base(name)
+        {
+        }
     }
 }

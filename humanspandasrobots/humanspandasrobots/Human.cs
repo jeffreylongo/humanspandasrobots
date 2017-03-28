@@ -8,12 +8,6 @@ namespace humanspandasrobots
 {
     class Human :Mammal
     {
-        //this method will require a name for any new human.
-        public string HumanName { get; set; }
-        public Human(string name)
-        {
-            this.HumanName = name;
-        }
         //this method will wake the human up.
         public void WakeUp()
         {
@@ -31,11 +25,6 @@ namespace humanspandasrobots
         {
             Console.WriteLine($"Hello, I'm {Name}");
         }
-        //this method will display the humans name
-        public void DisplayName()
-        {
-            Console.WriteLine(Name);
-        }
         public void Eat()
         {
             var food = "Chicken Wings";
@@ -47,5 +36,8 @@ namespace humanspandasrobots
         public bool IsAsleep { get { return _IsAsleep; } }
         private bool _IsAsleep;
 
+        public Human(string name) : base(name)
+        {
+        }
     }
 }
