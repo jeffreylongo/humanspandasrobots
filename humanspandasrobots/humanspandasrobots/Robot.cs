@@ -14,7 +14,7 @@ namespace humanspandasrobots
         {
             _IsTerminator = false;
             this.RobotName = name;
-            if name = "Terminator" 
+            if (name == "Terminator") 
             {
                 _IsTerminator = true;
             }

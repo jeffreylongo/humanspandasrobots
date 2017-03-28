@@ -26,7 +26,17 @@ namespace humanspandasrobots
             var bender = new Robot("Bender");
             robots.Add(bender);
 
+            bender.StartUp();
             bender.DisplayGreeting();
+            bender.ShutDown();
+
+            jim.WakeUp();
+            jim.DisplayGreeting();
+            jim.GoToSleep();
+
+            pinky.WakeUp();
+            pinky.DisplayGreeting();
+            pinky.GoToSleep();
 
 
             Console.ReadLine();
