@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Human.cs" />
+    <Compile Include="IGreeting.cs" />
     <Compile Include="Mammal.cs" />
     <Compile Include="Panda.cs" />
     <Compile Include="Program.cs" />

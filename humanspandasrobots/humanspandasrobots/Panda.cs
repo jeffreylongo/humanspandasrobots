@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace humanspandasrobots
 {
-    class Panda :Mammal
+    class Panda :Mammal, IGreeting
     {
         //this method will wake the panda up.
         public void WakeUp()
